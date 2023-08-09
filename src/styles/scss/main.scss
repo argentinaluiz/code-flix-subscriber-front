@@ -1,0 +1,20 @@
+// bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// bootstrap componentes
+// @import "~bootstrap/scss/functions";
+// @import "~bootstrap/scss/variables";
+// @import "~bootstrap/scss/mixins";
+
+// project
+@import "main/assets";
+@import "main/placeholders";
+@import "main/mixin";
+@import "main/navbar";
+@import "main/footer";
+@import "main/index";
+@import "main/plans";
+@import "main/login";
+@import "main/checkout";
+@import "main/user_data";
+@import "main/user_subscription";

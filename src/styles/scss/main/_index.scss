@@ -1,0 +1,46 @@
+.page-index {
+    .main {
+        min-height: calc(100vh - 133px);
+        height: auto;
+        background-color: #000000;
+
+        background: url("../img/background.png") no-repeat right center;
+
+        padding: 0 15px;
+
+        @include respond-to($_1200) {
+            padding: 0 160px;
+        }
+
+        .info {
+            h1 {
+                font-size: 1.9em;
+                font-weight: 600;
+                color: #fff;
+                padding-top: 70px;
+
+                @include respond-to($_1200) {
+                    font-size: 3.3em;
+                    padding-top: 170px;
+                }
+            }
+
+            h3 {
+                font-size: 1.5em;
+                color: #fff;
+                padding-top: 25px;
+
+                @include respond-to($_1200) {
+                    font-size: 2em;
+                }
+            }
+
+            .btn-danger {
+                background-color: #e9280e !important;
+                font-size: 1em;
+                padding: 10px 30px;
+                margin-top: 55px;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #000000;
+
+  @include respond-to($_1200) {
+    padding: 15px 75px;
+  }
+
+  .btn-danger {
+    background-color: #E9280E !important;
+    font-size: 0.7em;
+    padding: 4px 15px;
+  }
+
+  .navbar-codeflix {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      @include respond-to($_240) {
+        width: 130px;
+      }
+  
+      @include respond-to($_576) {
+        width: 163px;
+      }
+    }
+
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,107 @@
+.footer-default {
+  background-color: #1A2B3F;
+
+
+  .copy {
+      background-color: #1A2B3F;
+      height: 150px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      @include respond-to($_992) {
+          height: 68px;
+      }
+
+
+      .container-fluid {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+
+          @include respond-to($_768) {
+              flex-direction: row;
+              justify-content: flex-start;
+          }
+
+          @include respond-to($_1200) {
+             padding-right: 75px;
+             padding-left: 75px;
+          }
+
+          .row {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              width: 100%;
+
+              margin: 15px 0;
+
+              @include respond-to($_768) {
+                  flex-direction: row;
+                  margin: 0;
+              }
+          }
+
+          p {
+              font-size: 14px;
+              font-weight: 400;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.71;
+              letter-spacing: normal;
+              text-align: center;
+              color: #818181;
+
+              margin: 0;
+
+              flex-grow: 1;
+
+              @include respond-to($_768) {
+                  text-align: left;
+              }
+          }
+
+          span {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+
+              margin: 15px 0;
+
+              @include respond-to($_768) {
+                  justify-content: flex-end;
+                  margin: 0;
+              }
+
+              a {
+                  font-size: 14px;
+                  font-weight: 400;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.71;
+                  letter-spacing: normal;
+                  text-align: center;
+                  color: #818181;
+
+                  padding: 0 10px;
+
+                  @include respond-to($_576) {
+                    text-align: left;
+                  }
+
+                  &:first-child {
+                      @include respond-to($_1200) {
+                          margin-right: 60px;
+                      }
+                  }
+              }
+          }
+      }
+  }
+}

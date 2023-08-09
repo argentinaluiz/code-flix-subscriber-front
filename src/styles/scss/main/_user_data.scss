@@ -1,0 +1,75 @@
+.page-user-data {
+    .main {
+        min-height: calc(100vh - 133px);
+        height: auto;
+        background-color: #000000;
+
+        background: url("../img/background01.png") no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        padding: 60px 15px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+
+        .user-data {
+            width: 100%;
+
+            h1 {
+                font-size: 1.9em;
+                font-weight: 400;
+                color: #fff;
+                padding-top: 10px;
+                text-align: left;
+                margin-bottom: 30px;
+
+                @include respond-to($_1200) {
+                    font-size: 2.5em;
+                }
+            }
+
+            .container {
+                .form-user-data {
+                    width: 100%;
+
+                    h2 {
+                        font-size: 1.2em;
+                        color: #fff;
+                        margin-top: 20px;
+                    }
+
+                    .form-group {
+                        width: 100%;
+                        padding: 10px 0;
+                        margin: 0;
+
+                        .form-control {
+                            height: 42px;
+                            background-color: #2b2c2e;
+                            border-color: #2b2c2e;
+                            color: #999;
+                        }
+                    }
+
+                    .btn-danger {
+                        background-color: #e9280e !important;
+                        font-size: 1em;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        padding: 10px 50px;
+                        margin-top: 15px;
+                        border-radius: 0px;
+                        max-width: 190px;
+                        width: auto;
+                        border-radius: 7px;
+                    }
+                }
+            }
+        }
+    }
+}

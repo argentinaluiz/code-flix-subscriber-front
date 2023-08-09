@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeflix</title>
+
+
+    <link rel="stylesheet" href="statics/css/main.css">
+</head>
+
+<body>
+
+
+    <div class="page-checkout">
+        <nav class="navbar navbar-codeflix">
+            <a class="" href="#">
+                <img src="./statics/img/menu.png" alt="menu">
+            </a>
+
+            <a class="" href="index.html">
+                <img src="./statics/img/logo.png" alt="logo" class="logo">
+            </a>
+
+
+            <a class="btn btn-sm btn-danger" href="login.html">Entrar</a>
+        </nav>
+
+
+        <main class="main">
+
+            <div class="checkout">
+
+                <div class="container">
+
+                    <h1>Plano Mensal</h1>
+
+
+
+                    <form class="form-checkout" method="GET" action="user_subscription.html">
+
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+
+                                <h2>Dados Pessoais</h2>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <label for="name" class="sr-only">Nome</label>
+                                            <input type="text" class="form-control" name="first_name" id="name" placeholder="Nome">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <label for="last-name" class="sr-only">Sobrenome</label>
+                                            <input type="text" class="form-control" name="last_name" id="last-name" placeholder="Sobrenome">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="email" class="sr-only">Email</label>
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <label for="password" class="sr-only">Senha</label>
+                                            <input type="password" class="form-control" name="password" id="password" placeholder="Senha">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <label for="re-password" class="sr-only">Confirmar Senha</label>
+                                            <input type="password" class="form-control" name="re_password" id="re-password" placeholder="Confirmar Senha">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <label for="cpf" class="sr-only">CPF</label>
+                                            <input type="text" class="form-control" name="cpf" id="cpf" placeholder="CPF">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-group">
+                                            <label for="birth" class="sr-only">Nascimento</label>
+                                            <input type="text" class="form-control" name="birth" id="birth" placeholder="Nascimento">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <h2>Endereço</h2>
+
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="cep" class="sr-only">CEP</label>
+                                            <input type="text" class="form-control" name="cep" id="cep" placeholder="CEP">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-8">
+                                        <div class="form-group">
+                                            <label for="street" class="sr-only">Rua</label>
+                                            <input type="text" class="form-control" name="street" id="street" placeholder="Rua">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="number" class="sr-only">Número</label>
+                                            <input type="number" class="form-control" name="number" id="number" placeholder="Número">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="complement" class="sr-only">Complemento</label>
+                                            <input type="text" class="form-control" name="complement" id="complement" placeholder="Complemento">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="neighborhood" class="sr-only">Bairro</label>
+                                            <input type="text" class="form-control" name="neighborhood" id="neighborhood" placeholder="Bairro">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <div class="form-group">
+                                            <label for="city" class="sr-only">Cidade</label>
+                                            <input type="text" class="form-control" name="city" id="city" placeholder="Cidade">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="state" class="sr-only">Estado</label>
+                                            <input type="text" class="form-control" id="state" placeholder="Estado">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-12 col-lg-2">
+                                        <div class="form-group">
+                                            <label for="ddd01" class="sr-only">DDD</label>
+                                            <input type="text" class="form-control" name="ddd_01" id="ddd01" placeholder="DDD">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="phone" class="sr-only">Telefone</label>
+                                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Telefone">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-2">
+                                        <div class="form-group">
+                                            <label for="ddd02" class="sr-only">DDD</label>
+                                            <input type="text" class="form-control" name="ddd_02" id="ddd02" placeholder="DDD">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-4">
+                                        <div class="form-group">
+                                            <label for="cellphone" class="sr-only">Celular</label>
+                                            <input type="text" class="form-control" name="cellphone" id="cellphone" placeholder="Celular">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-lg-6 col-card">
+
+                                <div class="col-12 card">
+
+
+                                    <h3>R$ 29,90</h3>
+                                    <p>formas de pagamento</p>
+
+
+                                    <img src="./statics/img/cards.png" alt="Bandeiras dos cartões" class="flag">
+
+
+                                    <div class="row">
+                                        <div class="col-12 col-lg-8">
+                                            <div class="form-group">
+                                                <label for="card-number" class="sr-only">Número do cartão</label>
+                                                <input type="text" class="form-control" name="card_number" id="card-number" placeholder="Número do cartão">
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-12 col-lg-4">
+                                            <div class="form-group">
+                                                <label for="card-cvv" class="sr-only">CVV</label>
+                                                <input type="text" class="form-control" name="card_cvv" id="card-cvv" placeholder="CVV">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 col-lg-8">
+                                            <div class="form-group">
+                                                <label for="card-name" class="sr-only">Titular do cartão</label>
+                                                <input type="text" class="form-control" name="card_name" id="card-name" placeholder="Titular do cartão">
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-12 col-lg-4">
+                                            <div class="form-group">
+                                                <label for="card-date" class="sr-only">MM/AA</label>
+                                                <input type="text" class="form-control" name="card_date" id="card-date" placeholder="MM/AA">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-btn">
+                                        <button type="submit" class="btn btn-danger">Finalizar</button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </main>
+
+
+        <footer class="footer-default">
+
+            <div class="copy">
+                <div class="container-fluid">
+                    <div class="row">
+                        <p>&copy; 2019 CODEFLIX - Todos os direitos reservados</p>
+                        <span>
+                            <a href="" title="Privacidade" target="_blank">Sobre a CODEFLIX</a>
+                            <a href="" title="Termos de uso" target="_blank">Termos de uso</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
